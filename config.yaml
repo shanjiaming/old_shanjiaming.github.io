@@ -34,7 +34,7 @@ enableEmoji: true
 params:
   # GitHub repo URL and branch of your site
   gitRepo: https://github.com/shanjiaming/shanjiaming.github.io
-  gitBranch: main
+  gitBranch: source
 
   # specify whether you want to write some blog posts or not
   enableBlogPost: true
@@ -45,12 +45,25 @@ params:
   # Provide newsletter configuration. 
   # This feature has been implemented for Mailchimp only for now.
   # You can also hide it from the footer.
-  # newsletter:
+  newsletter:
   #   # specify whether you want to display the newsletter form 
-  #   enable: true
+    enable: false
   #   # specify which newsletter provider you want to use
   #   provider: mailchimp
   #   # specify the target URL for the subscription form
   #   mailchimpURL: https://github.us1.list-manage.com/subscribe/post?u=19de52a4603135aae97163fd8&amp;id=094a24c76e
+  features:
+  comment:
+    enable: true
+    valine:
+      appId: app-id
+      appKey: app-key
+      avatar: avatar
+      placeholder: placeholder
+      lang: lang
+      recordIP: recordIP
+      enableQQ: enableQQ
 
   background: "images/background.jpg"
+
+  footer.navigation.customMenus: true
