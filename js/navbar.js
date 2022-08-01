@@ -1,7 +1,8 @@
 "use strict";
 
 const updateNavBar = () => {
-  if ($(document).scrollTop() > 40) {
+  if (true) {
+//   if ($(document).scrollTop() > 40) {
     $('#top-navbar').removeClass('initial-navbar');
     $('#top-navbar').addClass('final-navbar shadow');
 
