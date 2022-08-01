@@ -1,6 +1,6 @@
 ---
 title: "第一篇实验室日记！"
-date: 2022-07-31
+date: 2022-07-31T06:15:55+06:00
 # hero: /images/posts/writing-posts/watching.jpg
 menu:
   sidebar:
